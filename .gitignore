@@ -1,0 +1,9 @@
+*gem
+*swp
+.DS_store
+.sass-cache
+source/*.css
+Gemfile.lock
+node_modules
+public
+tmp
