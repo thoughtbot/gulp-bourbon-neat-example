@@ -1,6 +1,8 @@
 var autoprefix = require("gulp-autoprefixer"),
     connect    = require("gulp-connect"),
     gulp       = require("gulp"),
+    bourbon    = require("bourbon").includePaths,
+    neat       = require("bourbon-neat").includePaths,
     sass       = require("gulp-sass");
 
 var paths = {
@@ -10,7 +12,8 @@ var paths = {
 gulp.task("sass", function () {
   return gulp.src(paths.scss)
     .pipe(sass({
-        sourcemaps: true
+        sourcemaps: true,
+        includePaths: [bourbon, neat]
     }))
     .pipe(autoprefix("last 2 versions"))
     .pipe(gulp.dest("./source/assets/stylesheets"))
