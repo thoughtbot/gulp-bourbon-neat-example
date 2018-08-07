@@ -38,7 +38,7 @@ use out of the box and flexible enough to customize down the road.
    ```
 
 1. Run the default `gulp` command which will complie the stylesheets, with
-   Bourbon and Neat inclded as well as creating a local server at
+   Bourbon and Neat included as well as creating a local server at
    [`http://localhost:8000`](http://localhost:8000). Gulp will continue to watch
    the `/stylesheets` to monitor for any changes.
 
