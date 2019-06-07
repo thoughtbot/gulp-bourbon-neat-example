@@ -1,3 +1,5 @@
+As of June 2019 this project is no longer being maintained as gulp is typically no longer part of our regular workflow.
+
 [<img src="http://images.thoughtbot.com/bourbon/bourbon-logo-v2.svg" width="200" alt="Neat logo">][Bourbon]
 [<img src="http://images.thoughtbot.com/bourbon/neat-logo-v2.svg" width="200" alt="Neat logo">][Neat]
 
